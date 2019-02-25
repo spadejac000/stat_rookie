@@ -1,8 +1,8 @@
 {
-  
+  "name": "stat_rookie",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://spadejac000.github.io/stat_rookie/",
+  "homepage": "https://spadejac000.github.io/stat_rookie",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",
