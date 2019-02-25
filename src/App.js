@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import TheNavbar from './components/layout/TheNavbar';
 import Landing from './components/layout/Landing'; 
 import Footer from './components/layout/Footer';
+import Categories from './components/layout/Categories';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -14,7 +15,10 @@ class App extends Component {
       <Router>
         <div className="App">
           <TheNavbar />
-          <Route exact path="/" component={Landing} />
+          <Switch>
+            <Route exact path="/" component={Landing} />
+            <Route exact path="/categories" component={Categories} />
+          </Switch>
           <Footer />
         </div>
       </Router>
