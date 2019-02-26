@@ -27,7 +27,7 @@ class Footer extends Component {
                 }}>
               </i>
             </a>
-            <a href="mailto:info@statrookie.com">
+            <a href="mailto:info@statrookie.com" target="_top">
               <i 
                 className="fas fa-envelope-square" 
                 style={{
