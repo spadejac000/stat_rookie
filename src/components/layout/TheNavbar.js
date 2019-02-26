@@ -54,7 +54,7 @@ class TheNavbar extends Component {
                   </Navbar.Brand>
                 </Container>
               </Navbar>
-
+              
             : 
             
               <Navbar 
