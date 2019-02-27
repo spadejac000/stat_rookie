@@ -5,7 +5,7 @@ import {Container, Button} from 'react-bootstrap';
 class Landing extends Component {
   render() {
     return (
-      <Container className="text-center">
+      <Container className="text-center text-light">
         <p>StatRookie trains fans and athletes into analytics all-stars. From analyzing box scores to developing algorithms; we can up your game.</p>
         <div className="text-center mb-5">
           <Link to="/categories">

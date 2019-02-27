@@ -8,7 +8,7 @@ import Algorithms from './Algorithms';
 export default class Categories extends Component {
   render() {
     return (
-      <Container>
+      <Container className="text-light">
         <p className="mb-5">StatRookie is a sports analytics learning platform for fans and athletes. We teach key sports analytics concepts that integrate cognitive training with real in game stats. </p>
 
         <div className="container">

@@ -5,5 +5,10 @@ html {
 
 body {
   margin: 100px 0 100px; /* bottom = footer height */
-  background-color: #f8f9fa;
+  /* background-color: #f8f9fa; */
+  background-color: #343a40;
 }
+
+/* .navbar-toggler {
+  background-color: #f8f9fa;
+} */

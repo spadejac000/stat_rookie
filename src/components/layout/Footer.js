@@ -14,7 +14,6 @@ class Footer extends Component {
           width: "100%"
         }}
       >
-        <hr />
         <Container>
           <div className="text-right">
             <span>Contact Us</span>
